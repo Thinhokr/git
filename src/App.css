@@ -6,11 +6,26 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.button:hover{
+  background-color: pink;
+  
+}
+.men{
+  margin-left: 20px;
+}
+.foot{
+  margin-left: 20px;
+}
+.divCard{
+  display: flex;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.icon{
+  margin-left: 40px;
 }
 
 .App-header {
@@ -26,6 +41,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.divCard{
+  margin-left: 25px;
 }
 
 @keyframes App-logo-spin {
